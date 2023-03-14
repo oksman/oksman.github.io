@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: single
 title: RODEO
 permalink: /rodeo/
+sidebar:
+  nav: "rodeo"
 ---
 
 # Introduction
@@ -12,6 +14,6 @@ Here we will describe the [RODEO project](https://www.getrodeo.io/).
 
 # People
 
-* Rodeo boss
-* Rodeo worker
-* Rodeo clown
+- Rodeo boss
+- Rodeo worker
+- Rodeo clown
