@@ -4,20 +4,44 @@
 
 layout: home
 author_profile: true
-# classes: wide
 layout: splash
 
 header: 
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://upload.wikimedia.org/wikipedia/commons/3/37/Rodeo%2C_K%C3%A4lberfangen.jpg
+  overlay_image: assets/images/rodeo-hero.webp
   actions:
-  - label: "Code"
+  - label: "Explore more"
     url: "https://github.com/EURODEO"
 
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "The provision of open access to public meteorological data and development of shared federated data infrastructure for the development of information products and services."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+
+feature_row:
+  - image_path: /assets/images/img-sample-01.webp
+    alt: "rodeo1"
+    title: "Open Access"
+    url: "/rodeo"
+    excerpt: "The provision of open access to public meteorological data and development of shared federated data infrastructure for the development of information products and services."
+    btn_label: "Explore more"
+  - image_path: /assets/images/img-sample-02.webp
+    alt: "rodeo2"
+    title: "Meteorological Data"
+    url: "/rodeo"
+    excerpt: "The provision of open access to public meteorological data and development of shared federated data infrastructure for the development of information products and services."
+    btn_label: "Explore more"
+
+  - image_path: /assets/images/img-sample-02.webp
+    alt: "rodeo2"
+    title: "Data and Development"
+    url: "/rodeo"
+    excerpt: "The provision of open access to public meteorological data and development of shared federated data infrastructure for the development of information products and services."
+    btn_label: "Explore more"
+
+
 ---
+
+{% include feature_row %}
 
 {% include feature_row id="intro" type="center" %}
